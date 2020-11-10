@@ -4,7 +4,9 @@ using System.Runtime.CompilerServices;
 namespace WeatherApp.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
-    {
+    {/// <summary>
+    /// 
+    /// </summary>
         public event PropertyChangedEventHandler PropertyChanged;
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
