@@ -33,9 +33,10 @@ namespace WeatherApp.ViewModels
             }
         }
 
-        public TemperatureViewModel()
+        public TemperatureViewModel(ITemperatureService ITS)
         {
             GetTempCommand = new DelegateCommand<string>(GetTemp, CanGetTemp);
+            SetTemperatureService(ITS);
         }
 
         public bool CanGetTemp(string obj)
