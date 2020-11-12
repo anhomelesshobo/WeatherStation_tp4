@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\OpenWeatherTest\OpenWeatherAPI\OpenWeatherAPI.csproj" />
+    <ProjectReference Include="..\..\WeatherStation_tp4\OpenWeatherAPI\OpenWeatherAPI.csproj" />
   </ItemGroup>
 
 </Project>
