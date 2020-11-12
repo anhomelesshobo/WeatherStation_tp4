@@ -23,7 +23,8 @@ namespace WeatherApp
             ITemperatureService ops = new OpenWeatherService(config);
             
 
-            vm = new TemperatureViewModel(ops);
+            vm = new TemperatureViewModel();
+            vm.SetTemperatureService(ops);
             
 
             DataContext = vm;           
