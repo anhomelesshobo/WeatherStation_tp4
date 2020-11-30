@@ -26,7 +26,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\WeatherStation_tp4\WeatherApp\WeatherApp.csproj" />
-    <ProjectReference Include="..\..\WeatherStation_tp4\WeatherApp\WeatherApp.csproj" />
     <ProjectReference Include="..\OpenWeatherAPI\OpenWeatherAPI.csproj" />
   </ItemGroup>
 
